@@ -56,61 +56,21 @@ The project is intended as a technical sample. The focus is on architecture, imp
 
 ## Tech Stack
 
-### Backend
-- .NET 9
-- ASP.NET Core
-- .NET Aspire
-- C#
-- Minimal APIs
-- MediatR
-- MassTransit
-- RabbitMQ
-- YARP API Gateway
-- FluentValidation
-- Serilog
-- Polly
-- OpenTelemetry
-
-### Architecture
-- Microservices Architecture
-- Vertical Slice Architecture
-- CQRS (Command Query Responsibility Segregation)
-- Domain-Driven Design (DDD)
-- Event-Driven Architecture
-- Event Sourcing
-- Outbox Pattern
-- Inbox Pattern
-
-### Databases
-- PostgreSQL
-- MongoDB
-- EventStoreDB
-- Redis
-- Elasticsearch
-
-### Authentication & Security
-- JWT Authentication
-- Duende IdentityServer
-
-### Testing
-- xUnit
-- NSubstitute
-- Testcontainers
-
-### DevOps & Deployment
-- Docker
-- Docker Compose
-- Kubernetes
-- Helm
-- Kustomize
-
-### Development Tools
-- Swagger / OpenAPI
-- CSharpier
-- StyleCop Analyzers
-- Roslynator
-- Git
-- GitHub
+| Category | Technologies |
+|----------|--------------|
+| **Framework** | .NET 9, ASP.NET Core, .NET Aspire |
+| **Language** | C# |
+| **Architecture** | Microservices, Vertical Slice Architecture, CQRS, Domain-Driven Design (DDD), Event-Driven Architecture, Event Sourcing |
+| **Messaging** | RabbitMQ, MassTransit |
+| **API & Gateway** | Minimal APIs, YARP API Gateway |
+| **Databases** | PostgreSQL, MongoDB, EventStoreDB, Redis, Elasticsearch |
+| **Authentication** | JWT Authentication, Duende IdentityServer |
+| **Validation** | FluentValidation |
+| **Observability** | OpenTelemetry, Serilog |
+| **Resilience** | Polly |
+| **Testing** | xUnit, NSubstitute, Testcontainers |
+| **Deployment** | Docker, Docker Compose, Kubernetes, Helm, Kustomize |
+| **Development Tools** | Swagger/OpenAPI, CSharpier, StyleCop Analyzers, Roslynator, Git, GitHub |
 
 ## Application Architecture
 
