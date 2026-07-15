@@ -55,13 +55,6 @@ The project is intended as a technical sample. The focus is on architecture, imp
 - .NET Aspire for cloud-native orchestration and developer experience
 - Helm, Kubernetes, and Kustomize support for deployment
 
-## Plan
-
-> This project is in progress, and new features will be added over time.
-
-| Feature | Architecture Pattern | Status | CI-CD |
-| ------- | -------------------- | ------ | ----- |
-
 ## Technologies and Libraries
 
 - [.NET 9](https://dotnet.microsoft.com/download)
@@ -119,10 +112,6 @@ Instead of organizing code by technical layers such as controllers, services, an
 ![Vertical Slice Flow](./assets/vsa2.png)
 
 With CQRS, the code is split into small command and query slices. This improves separation of concerns and makes changes local to a single use case. It also fits well with MediatR pipeline behaviors and feature-based organization.
-
-### High Level Structure
-
-TODO
 
 ## Prerequisites
 
