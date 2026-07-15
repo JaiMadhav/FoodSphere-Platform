@@ -4,7 +4,7 @@
 
 ## Overview
 
-FoodSphere Platform is a cloud-native application built with **.NET Aspire**, **.NET Core**, and a set of backend architecture patterns, including:
+FoodSphere Platform is a cloud-native food ordering platform designed using a microservices architecture and modern .NET technologies, including:
 
 - Microservices Architecture
 - Vertical Slice Architecture
