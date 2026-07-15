@@ -1,0 +1,4 @@
+CREATE DATABASE catalogs;
+CREATE DATABASE identity;
+CREATE DATABASE orders;
+CREATE DATABASE customers;
