@@ -116,7 +116,7 @@ With CQRS, the code is split into small command and query slices. This improves 
 6. Around 10 GB of free disk space
 7. A clone of this repository that builds successfully
 8. Infrastructure services started with Docker Compose
-9. The `food-sphere.sln` solution opened in the IDE
+9. The `food-sphere.slnx` solution opened in the IDE
 
 ## Setup
 
