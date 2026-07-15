@@ -50,7 +50,6 @@ The project is intended as a technical sample. The focus is on architecture, imp
 - MongoDB and Elasticsearch for the read database
 - Docker and docker-compose deployment
 - YARP reverse proxy as the API Gateway
-- OpenTelemetry for metrics and distributed traces
 - .NET Aspire for cloud-native orchestration and developer experience
 - Helm, Kubernetes, and Kustomize support for deployment
 
@@ -117,7 +116,7 @@ With CQRS, the code is split into small command and query slices. This improves 
 6. Around 10 GB of free disk space
 7. A clone of this repository that builds successfully
 8. Infrastructure services started with Docker Compose
-9. The `food-delivery-microservices.sln` solution opened in the IDE
+9. The `food-sphere.sln` solution opened in the IDE
 
 ## Setup
 
@@ -193,7 +192,7 @@ npm run prepare
 
 A watcher can be configured in the IDE to run formatting on save. The repository also uses Husky hooks for formatting enforcement.
 
-### Analizers
+### Analyzers
 
 Roslyn analyzers are configured in `.editorconfig`:
 
