@@ -1,4 +1,4 @@
-# Food Delivery Microservices - FoodSphere Platform
+# FoodSphere Platform
 
 **Author:** Jai Madhav
 
@@ -14,13 +14,12 @@ FoodSphere Platform is a cloud-native application built with **.NET Aspire**, **
 
 The project is intended as a technical sample. The focus is on architecture, implementation patterns, and infrastructure rather than on a business product.
 
-> This application is not business-oriented. The main goal is to demonstrate different technologies, software design approaches, and principles used to build a microservices application.
+> This repository has been developed as a technical reference project to demonstrate modern software architecture patterns and cloud-native development practices.
 
 ## Table of Contents
 
 - [Features](#features)
-- [Plan](#plan)
-- [Technologies and Libraries](#technologies-and-libraries)
+- [Tech Stack](#tech-stack)
 - [Application Architecture](#application-architecture)
 - [Application Structure](#application-structure)
 - [Prerequisites](#prerequisites)
@@ -55,28 +54,63 @@ The project is intended as a technical sample. The focus is on architecture, imp
 - .NET Aspire for cloud-native orchestration and developer experience
 - Helm, Kubernetes, and Kustomize support for deployment
 
-## Technologies and Libraries
+## Tech Stack
 
-- [.NET 9](https://dotnet.microsoft.com/download)
-- [MassTransit](https://github.com/MassTransit/MassTransit)
-- [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)
-- [Npgsql Entity Framework Core Provider](https://www.npgsql.org/efcore/)
-- [EventStore-Client-Dotnet](https://github.com/EventStore/EventStore-Client-Dotnet)
-- [FluentValidation](https://github.com/FluentValidation/FluentValidation)
-- [Swagger & Swagger UI](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
-- [Serilog](https://github.com/serilog/serilog)
-- [Polly](https://github.com/App-vNext/Polly)
-- [Scrutor](https://github.com/khellang/Scrutor)
-- [Opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet)
-- [DuendeSoftware IdentityServer](https://github.com/DuendeSoftware/IdentityServer)
-- [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
-- [Rabbitmq-dotnet-client](https://github.com/rabbitmq/rabbitmq-dotnet-client)
-- [AspNetCore.Diagnostics.HealthChecks](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks)
-- [Microsoft.AspNetCore.Authentication.JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
-- [NSubstitute](https://github.com/nsubstitute/NSubstitute)
-- [StyleCopAnalyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
-- [Mapperly](https://github.com/riok/mapperly)
-- [IdGen](https://github.com/RobThree/IdGen)
+### Backend
+- .NET 9
+- ASP.NET Core
+- .NET Aspire
+- C#
+- Minimal APIs
+- MediatR
+- MassTransit
+- RabbitMQ
+- YARP API Gateway
+- FluentValidation
+- Serilog
+- Polly
+- OpenTelemetry
+
+### Architecture
+- Microservices Architecture
+- Vertical Slice Architecture
+- CQRS (Command Query Responsibility Segregation)
+- Domain-Driven Design (DDD)
+- Event-Driven Architecture
+- Event Sourcing
+- Outbox Pattern
+- Inbox Pattern
+
+### Databases
+- PostgreSQL
+- MongoDB
+- EventStoreDB
+- Redis
+- Elasticsearch
+
+### Authentication & Security
+- JWT Authentication
+- Duende IdentityServer
+
+### Testing
+- xUnit
+- NSubstitute
+- Testcontainers
+
+### DevOps & Deployment
+- Docker
+- Docker Compose
+- Kubernetes
+- Helm
+- Kustomize
+
+### Development Tools
+- Swagger / OpenAPI
+- CSharpier
+- StyleCop Analyzers
+- Roslynator
+- Git
+- GitHub
 
 ## Application Architecture
 
@@ -322,4 +356,4 @@ Install the Kubernetes infrastructure manifests with:
 
 ## Contribution
 
-The project is in development status. Pull requests and issues are welcome.
+This repository is maintained for educational and learning purposes.
